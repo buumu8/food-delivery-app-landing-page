@@ -1,8 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+
+  /* Yellow Linear */
+
+  background: linear-gradient(180deg, #ffc700 23.96%, #832700 100%);
+}
+
+.app-title {
+  /* Food Delivery App */
+
+  position: absolute;
+  width: 445px;
+  height: 72px;
+  left: 32px;
+  top: 348px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.app-desc {
+  position: absolute;
+  width: 397px;
+  height: 120px;
+  left: 32px;
+  top: 428px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.frame1 {
+  position: absolute;
+  width: 700px;
+  height: 100%;
+  left: 1118.7px;
+  top: 0px;
+
+  background: url(./img/frame1.png);
+  background-size: cover;
+  /* border-radius: 58px; */
+  /* transform: rotate(17.12deg); */
+}
+
+.frame2 {
+  position: absolute;
+  width: 700px;
+  height: 747.88px;
+  left: 583px;
+  top: 213.12px;
+
+  background: url(./img/frame2.png);
+  background-size: cover;
+  /* border-radius: 56px; */
+  /* transform: rotate(-17.95deg); */
 }
